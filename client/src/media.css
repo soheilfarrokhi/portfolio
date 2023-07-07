@@ -1,0 +1,161 @@
+/* sm  */
+@media (max-width: 640px) {
+}
+/* md  */
+@media (max-width: 768px) {
+  /* projects  */
+  .projects_ {
+    grid-template-columns: 1fr;
+  }
+  .project_image {
+    height: 300px;
+  }
+  /* skills */
+  .what_i_do_ {
+    flex-direction: column;
+  }
+  .skills_ {
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact_ .form .flex {
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  .contact_ .form .flex input {
+    width: 100%;
+  }
+  /* heads  */
+  h1,
+  .head1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  h2,
+  .head2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  h3,
+  .head3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  h4,
+  .head4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  h5,
+  .head5 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  h6,
+  .head6 {
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+
+  p,
+  .para {
+    font-size: 0.6rem;
+    font-weight: 300;
+  }
+}
+/* lg  */
+@media (max-width: 1024px) {
+  .view_header {
+    margin-top: 60px;
+  }
+  .mobile_navbar {
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+    transition: 0.3s ease;
+    transform: translateX(-100%);
+    visibility: hidden;
+  }
+  .close_nav {
+    display: flex;
+  }
+
+  .mobile_navbar_visible {
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .home_section .home_box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .img_box {
+    flex: none;
+  }
+  .home_box .img_box .home_img {
+    width: 100%;
+  }
+  .home_content {
+    flex: none;
+    text-align: center;
+    width: 100%;
+  }
+  .home_content button {
+    margin: auto;
+    width: 50%;
+  }
+
+  .about_ {
+    flex-direction: column;
+  }
+
+  .contact_ {
+    flex-direction: column;
+  }
+  .contact_ .form {
+    flex: 0;
+    width: 100%;
+  }
+
+  /* heads  */
+  h1,
+  .head1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  h2,
+  .head2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+  h3,
+  .head3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  h4,
+  .head4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  h5,
+  .head5 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  h6,
+  .head6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  p,
+  .para {
+    font-size: 0.7rem;
+    font-weight: 300;
+  }
+}
+/* xl  */
+@media (max-width: 1280px) {
+}
