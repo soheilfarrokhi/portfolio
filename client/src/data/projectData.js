@@ -1,44 +1,51 @@
+import Img1 from "../assets/people/1.jpg";
+import Img2 from "../assets/people/2.jpg";
+import Img3 from "../assets/people/3.jpg";
+import Img4 from "../assets/people/4.jpg";
+import Img5 from "../assets/people/5.jpg";
+import Img6 from "../assets/people/6.jpg";
+
 export const projects = [
   {
     title: "12 unique",
     desc: "",
     cat: "web design",
-    img: "http://localhost:5173/src/assets/people/1.jpg",
+    img: Img1,
     data: Date.now(),
   },
   {
     title: "12 unique",
     desc: "",
     cat: "web",
-    img: "http://localhost:5173/src/assets/people/2.jpg",
+    img: Img2,
     data: Date.now(),
   },
   {
     title: "12 unique",
     desc: "",
     cat: "game",
-    img: "http://localhost:5173/src/assets/people/3.jpg",
+    img: Img3,
     data: Date.now(),
   },
   {
     title: "12 unique",
     desc: "",
     cat: "game",
-    img: "http://localhost:5173/src/assets/people/4.jpg",
+    img: Img4,
     data: Date.now(),
   },
   {
     title: "12 unique",
     desc: "",
     cat: "game",
-    img: "http://localhost:5173/src/assets/people/5.jpg",
+    img: Img5,
     data: Date.now(),
   },
   {
     title: "12 unique",
     desc: "",
     cat: "web",
-    img: "http://localhost:5173/src/assets/people/6.jpg",
+    img: Img6,
     data: Date.now(),
   },
 ];
